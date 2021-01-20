@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "Z:/Code/Cygwin64/usr/include/c++/v1",
+                "Z:/Code/Cygwin64/usr/include/c++/v1",
+                "Z:\\Code\\Cygwin64\\lib\\gcc\\i686-pc-cygwin\\6.4.0\\include",
+                "Z:\\Code\\Cygwin64\\lib\\gcc\\i686-pc-cygwin\\6.4.0\\finclude",
+                "Z:\\Code\\Cygwin64\\usr\\include",
+                "Z:\\Code\\Cygwin64\\usr\\include\\w32api"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}",
+            "compilerPath": "Z:/Code/Cygwin64/bin/gcc.exe"
+        }
+    ],
+    "version": 4
+}
