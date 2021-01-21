@@ -1,0 +1,41 @@
+a1 test 
+readme.txt exist 
+q1 
+Please enter a character
+a:97,A
+Please enter a character
+D:68,d
+Please enter a character
+2:invalid
+Please enter a character
+*:quit
+q2 
+          1          2          6         24
+        120        720
+6!:720
+          1          2          6         24
+        120        720       5040      40320
+     362880    3628800
+10!:3628800
+          1          2          6         24
+        120        720       5040      40320
+     362880    3628800   39916800  479001600
+overflow:13!
+q3 
+Please enter the coefficients a,b,c
+The equation has two equal real roots
+x:-1.000000
+Please enter the coefficients a,b,c
+The equation has two complex roots
+real:-1.000000
+imaginary:1.000000
+Please enter the coefficients a,b,c
+The equation has two distinct real roots
+x1:-0.177124
+x2:-2.822875
+Please enter the coefficients a,b,c
+input:Invalid input
+Please enter the coefficients a,b,c
+input:not a quadratic equation
+Please enter the coefficients a,b,c
+input:quit
