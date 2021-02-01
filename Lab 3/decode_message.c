@@ -22,34 +22,12 @@ form the complete decoded message. The message is then output.
 #include <stdio.h>
 #include <string.h>
 
-//===================== GLOBAL MACRO DEFINITIONS ==========================================================
-
-#define cNUL '\0' // NULL character
-#define sNUL "\0" // NULL String
-#define cBlank ' ' // Blank character
-#define sBlank " " // Blank String
-#define cUScore '_' // Underscore character
-#define sUScore "_" // Underscore string.
-
-#ifdef TRUE
-   #undef TRUE
-   #undef FALSE
-#endif
-#define TRUE  (1==1)
-#define FALSE (0==1)
-                                // ======================== Statement Function Definitions.
-#define  F_MIN(v1,v2) (((v1) <  (v2))? (v1):(v2))        // Return the less    of v1 and v2
-#define  F_MAX(v1,v2) (((v1) >  (v2))? (v1):(v2))        // Return the greater of v1 and v2
-#define ZF_MIN(v1,v2) (F_MAX(0, (F_MIN((v1),(v2)))))     // Like F_MIN, but lower bounds the result at ZERO
-#define ZF(v)         (F_MAX(0, (v)))                    // Lower bounds the value "v" at ZERO.
-#define  F_NOT(v)     (((v) == TRUE)? FALSE:TRUE)        // Logical Negation.
-#define  F_ABS(v)     (((v) >= 0   )? (v):(-(v)))        // Absolute value
-
 #define MAX_NUM_ROWS 5 
 #define MAX_NUM_COLS 6 
 #define MAX_KEY_PAIRS 15 
 
-char blank = ' ';
+const char underscore = '_';
+const char blank = ' ';
 
 int main(int argc, char *argv[]) {
    setbuf(stdout, NULL);
@@ -62,7 +40,7 @@ int main(int argc, char *argv[]) {
       int x = key[i][0];
       int y = key[i][1];
       char c = scrambled[x - 1][y - 1];
-      if(c == cUScore)
+      if(c == underscore)
          strncat(result, &blank, 1);
 
       else strncat(result, &c, 1);
@@ -71,5 +49,6 @@ int main(int argc, char *argv[]) {
 
    printf("Result: %s", result);
    return 0;
+   
 }
 	
