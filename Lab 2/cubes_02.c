@@ -19,7 +19,7 @@ Version  2021-01-20
 
 int main(int argc, char *argv[]) {
     setbuf(stdout, NULL);
-    int i;          
+    int i; 
     int values [ARR_SIZE];
     long int cubes[ARR_SIZE];
     int *pV = values;
