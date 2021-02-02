@@ -1,3 +1,4 @@
+  
 /*
 -------------------------------------
 File:    decode_message.c
@@ -8,7 +9,6 @@ ID:      190906250
 Email:   raox6250@mylaurier.ca
 Version  2021-01-31
 -------------------------------------
-
 Program Description:
 ===================
    Given a 2D character array, called "scrambled", filled with ad hoc characters, this program uses the [row, col]
@@ -26,21 +26,19 @@ form the complete decoded message. The message is then output.
 #define MAX_NUM_COLS 6 
 #define MAX_KEY_PAIRS 15 
 
-const char underscore = '_';
 const char blank = ' ';
 
 int main(int argc, char *argv[]) {
    setbuf(stdout, NULL);
-
    char scrambled[MAX_NUM_ROWS][MAX_NUM_COLS] = {{"zd_k83"}, {"Ju9_Tn"}, {"bgm7If"}, {"ax0DLU"}, {"p_QoiR"}};
    int key[MAX_KEY_PAIRS][2] = {{3,5}, {5,2}, {4,1}, {3, 3}, {1,3}, {1, 2}, {5,4}, {5,5}, {2, 6}, {3,2}, {2,4}, {4, 5}, {4,1}, {3, 1}, {1,6} };
-   char result[MAX_KEY_PAIRS];
+   char result[MAX_KEY_PAIRS] = {};
    
    for(int i = 0; i < MAX_KEY_PAIRS; i++) {
       int x = key[i][0];
       int y = key[i][1];
       char c = scrambled[x - 1][y - 1];
-      if(c == underscore)
+      if(c == '_')
          strncat(result, &blank, 1);
 
       else strncat(result, &c, 1);
@@ -51,4 +49,3 @@ int main(int argc, char *argv[]) {
    return 0;
    
 }
-	
