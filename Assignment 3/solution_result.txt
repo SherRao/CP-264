@@ -1,0 +1,6 @@
+line count:2
+word count:10
+non-common word count:3
+first:1
+test:2
+second:1

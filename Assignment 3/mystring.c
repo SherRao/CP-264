@@ -1,61 +1,67 @@
-#include <stdio.h>
+/*
+ -------------------------------------
+ File:    myword.h
+ Project: Assignment 3
+ -------------------------------------
+ Author:  Nausher Rao
+ ID:      190906250
+ Email:   raox6250@mylaurier.ca
+ Version  2021-02-02
+ -------------------------------------
+ */
+
+#include "mystring.h"
+#define NULL 0
 
 int str_length(char *s) {
-    int length = 0;
-    while(*s != 0) {
-        length += 1;
-        s++;
-
-    }
-
-    return length;    
+	// your implementation
+	int length = 0, i = 0;
+	while (s[i] != '\0') {
+		i++;
+		length++;
+	}
+	return length;
 }
 
 int word_count(char *s) {
-    int length = 0;
-    while(*s != '\0') {
-        char c = *s;
-        char cn = *(s+1);
-        if(c == ' ' && (cn != ' ' && cn != '\0'))
-            length += 1;
-        
-        s++;
-    }
+// your implementation
+	int words=0,i=0,prev=1;
+	while(s[i]!='\0'){
+		if(s[i]!=' ' && prev==1){
+			prev=0;
+			words++;
+		}else if(s[i]==' '){
+			prev=1;
+		}
+		i++;
+	}
+	return words;
 
-    return length;
 }
 
 void lower_case(char *s) {
-    while(*s != 0) {
-        char c = *s;
-        if(c >= 'A' && c <= 'Z')
-            *s = *s + 32; 
-        
-        else *s = *s;
-        s++;
-    }
+// your implementation
+	int i=0;
+	while(s[i]!='\0'){
+		if(s[i]>='A' && s[i]<='Z'){
+			s[i] += 32;
+		}
+		i++;
+	}
 }
 
 void trim(char *s) {
-    int i, x;
-    for(i = x = 0; s[i]; ++i)
-        if(s[i] != ' ' || (i > 0 && s[i-1] != ' '))
-            s[x++] = s[i];
+	// your implementation
+	int i,j;
+	for(i=j=0;s[i];i++){
+		if(s[i]!=' ' || (i>0 && s[i-1]!=' ')){
+			s[j++]=s[i];
+		}
+	}
 
-    s[x - 1] = '\0';
-}
+	if(s[j-1]==' '){
+		s[j-1]='\0';
+	}
+	s[j]='\0';
 
-
-int main() {
-    char word[] = "     This Is    a Test   ";
-    char *p = word;
-    printf("Length: %d\n", str_length(p));
-    printf("Word Count: %d\n", word_count(p));
-
-    lower_case(p);
-    printf("Lowercase: %s\n", p);
-
-    trim(p);
-    printf("Trim: %s|||\n", p);
-    return 0;
 }

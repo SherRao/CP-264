@@ -1,0 +1,15 @@
+a3 test 
+readme.txt exist 
+q1 
+q2 
+stop word checker:ready
+is_stopword(is):1
+is_stopword(hello):0
+word processing:done
+line count:2
+word count:10
+non-common word count:3
+first:1
+test:2
+second:1
+saving result to file:done
