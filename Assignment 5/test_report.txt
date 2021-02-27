@@ -1,0 +1,4 @@
+Comparing files test_result.txt and SOLUTION_RESULT.TXT
+Comparing files report.txt and REPORT_SOLUTION.TXT
+FC: no differences encountered
+

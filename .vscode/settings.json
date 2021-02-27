@@ -1,3 +1,10 @@
 {
-    "C_Cpp.errorSquiggles": "Enabled"
+    "C_Cpp.errorSquiggles": "Enabled",
+    "files.associations": {
+        "algorithm": "cpp",
+        "random": "cpp",
+        "myrecord_llist.h": "c",
+        "string.h": "c",
+        "main.h": "c"
+    }
 }

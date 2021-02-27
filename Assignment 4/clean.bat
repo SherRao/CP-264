@@ -1,0 +1,9 @@
+del *.exe
+del *.h
+del mysort.c
+del myrecord.c
+del readme.txt
+del test_result.txt
+del test_report.txt
+del report.txt
+del *.zip

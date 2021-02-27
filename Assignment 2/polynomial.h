@@ -19,7 +19,6 @@
 #include<stdio.h>
 #include<math.h>
 
-
 //prints the polynomial in format like p[0]*x^{n-1} +  p[1]*x^{n-2} +...+ p[n-2]*x^1 + p[n-1]*x^0 with 2
 //digits after the point, e.g., 1.00*10.00^3+2.00*10.00^2+3.00*10.00^1+4.00*10.00^0
 void display_polynomial(float p[], int n, float x) {
