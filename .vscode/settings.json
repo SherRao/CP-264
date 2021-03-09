@@ -5,6 +5,9 @@
         "random": "cpp",
         "myrecord_llist.h": "c",
         "string.h": "c",
-        "main.h": "c"
+        "main.h": "c",
+        "queue.h": "c",
+        "common.h": "c",
+        "stdlib.h": "c"
     }
 }

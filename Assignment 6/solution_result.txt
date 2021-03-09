@@ -1,0 +1,15 @@
+a6 test 
+readme.txt exist 
+q1 
+enqueue:10-((3*4)+8)/4
+display queue:10 - ( ( 3 * 4 ) + 8 ) / 4 
+dequeue:10 - ( ( 3 * 4 ) + 8 ) / 4 
+q2 
+str:12 34 56 78 90 + - * /
+display stack:/ * + 90 78 56 34 12 
+pop:/ * + 90 78 56 34 12 
+q3 
+infix expression:10-((3*4)+8)/4
+postfix expression:10 3 4 * 8 + 4 / - 
+postfix evaluation:5
+prefix evaluation:5

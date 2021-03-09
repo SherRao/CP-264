@@ -1,0 +1,3 @@
+Comparing files test_result.txt and SOLUTION_RESULT.TXT
+FC: no differences encountered
+
