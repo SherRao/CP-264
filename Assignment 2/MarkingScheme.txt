@@ -1,0 +1,94 @@
+
+Marking Scheme for: 202101_CP264_Lab08_AVLs (Total: 10 Marks)
+===========================================  ===============
+
+- Code for "avl_valid_aux" function........ = 6
+  (There are six(6) cases to check for,
+   one mark for each case.)
+   
+- Code for "avl_rotate_left" function...... = 2
+
+- Code for "avl_rotate_right" function..... = 2  
+                                             ---
+                                      Total  10
+                                        
+Penalties:
+=========
+- Hard-coding                                 = -1
+- Use of Break, Continue, Go To               = -1 (NOTE: Break allowed in "Switch" statement.)
+  (i.e. Spaghetti code)
+- Convoluted logic                            = -1
+- Multiple "return" from main/subprogram      = -1
+- ALL local subprogram variables MUST be
+  declared at the beginning of the subprogram = -1  (Only exception: "for (int i=0; ...)"
+  (not dispersed throughout subprogram body)
+- Project builds/compiles with WARNINGS!      = -1
+
+- NOTE:
+  ====
+    Your project MUST Build/Compile clean and MUST Execute, otherwise a mark of ZERO is given for the lab.
+
+=====================================================================================================
+=====================================================================================================
+
+Correct Output (Partial Output):
+===============
+------------------------------------------------------------------
+
+::::: Test avl_linked :::::
+===========================
+
+-------------------------------
+:::> Inserting
+
+Insert: [3]
+Valid : [1]
+3  
+Insert: [7]
+Valid : [1]
+3  7  
+Insert: [11]
+Valid : [1]
+7  3  11  
+Insert: [15]
+Valid : [1]
+7  3  11  15  
+Insert: [19]
+Valid : [1]
+7  3  15  11  19  
+Insert: [23]
+Valid : [1]
+15  7  3  11  19  23  
+Insert: [27]
+Valid : [1]
+15  7  3  11  23  19  27  
+Insert: [31]
+Valid : [1]
+15  7  3  11  23  19  27  31  
+Insert: [35]
+Valid : [1]
+15  7  3  11  23  19  31  27  35  
+Insert: [39]
+Valid : [1]
+15  7  3  11  31  23  19  27  35  39  
+
+-------------------------------
+Max:
+
+39
+-------------------------------
+:::> Retrieving:
+
+Retrieve:   1 - 1,   3
+Retrieve:   2 - 1,   7
+Retrieve:   3 - 1,  11
+Retrieve:   4 - 1,  15
+Retrieve:   5 - 1,  19
+Retrieve:   6 - 1,  23
+Retrieve:   7 - 1,  27
+Retrieve:   8 - 1,  31
+Retrieve:   9 - 1,  35
+Retrieve:  10 - 1,  39
+Retrieve:  99 - 0,  39
+-------------------------------
+Done
