@@ -1,6 +1,0 @@
-Comparing files test_result.txt and SOLUTION_RESULT.TXT
-FC: no differences encountered
-
-Comparing files report.txt and SOLUTION_REPORT.TXT
-FC: no differences encountered
-

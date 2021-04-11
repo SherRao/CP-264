@@ -1,0 +1,257 @@
+PS X:\Code\Repos\CP-264\Lab 10\src> ./main.exe
+Initialize a max heap:
+=====================
+Heap Capacity = [20]
+Heap size     = [0]
+Max heap [Source] is EMPTY!
+Max heap [Source] is NOT FULL!
+
+Enter next Heap Value [-9999 to quit]: 88
+
+==> INPUT Values: [88 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [88])
+======================
+[88 ]
+
+Heap Structure:
+==============
+88
+
+
+Enter next Heap Value [-9999 to quit]: 89
+
+
+==> INPUT Values: [88 89 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 88 ]
+
+Heap Structure:
+==============
+89
+88
+
+
+Enter next Heap Value [-9999 to quit]: 5
+
+
+==> INPUT Values: [88 89 5 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 88 5 ]
+
+Heap Structure:
+==============
+89
+88  5
+
+
+Enter next Heap Value [-9999 to quit]: 30
+
+
+==> INPUT Values: [88 89 5 30 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 88 5 30 ]
+
+Heap Structure:
+==============
+89
+88  5
+30
+
+
+Enter next Heap Value [-9999 to quit]: 65
+
+
+==> INPUT Values: [88 89 5 30 65 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 88 5 30 65 ]
+
+Heap Structure:
+==============
+89
+88  5
+30  65
+
+
+Enter next Heap Value [-9999 to quit]: 77
+
+
+==> INPUT Values: [88 89 5 30 65 77 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 88 77 30 65 5 ]
+
+Heap Structure:
+==============
+89
+88  77
+30  65  5
+
+
+Enter next Heap Value [-9999 to quit]: 21
+
+
+==> INPUT Values: [88 89 5 30 65 77 21 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 88 77 30 65 5 21 ]
+
+Heap Structure:
+==============
+89
+88  77
+30  65  5  21
+
+
+Enter next Heap Value [-9999 to quit]: 89
+
+
+==> INPUT Values: [88 89 5 30 65 77 21 89 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 89 77 88 65 5 21 30 ]
+
+Heap Structure:
+==============
+89
+89  77
+88  65  5  21
+30
+
+
+Enter next Heap Value [-9999 to quit]: 13
+
+
+==> INPUT Values: [88 89 5 30 65 77 21 89 13 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 89 77 88 65 5 21 30 13 ]
+
+Heap Structure:
+==============
+89
+89  77
+88  65  5  21
+30  13
+
+
+Enter next Heap Value [-9999 to quit]: 45
+
+
+==> INPUT Values: [88 89 5 30 65 77 21 89 13 45 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 89 77 88 65 5 21 30 13 45 ]
+
+Heap Structure:
+==============
+89
+89  77
+88  65  5  21
+30  13  45
+
+
+Enter next Heap Value [-9999 to quit]: 64
+
+
+==> INPUT Values: [88 89 5 30 65 77 21 89 13 45 64 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 89 77 88 65 5 21 30 13 45 64 ]
+
+Heap Structure:
+==============
+89
+89  77
+88  65  5  21
+30  13  45  64
+
+
+Enter next Heap Value [-9999 to quit]: 4
+
+
+==> INPUT Values: [88 89 5 30 65 77 21 89 13 45 64 4 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 89 77 88 65 5 21 30 13 45 64 4 ]
+
+Heap Structure:
+==============
+89
+89  77
+88  65  5  21
+30  13  45  64  4
+
+
+Enter next Heap Value [-9999 to quit]: 10
+
+
+==> INPUT Values: [88 89 5 30 65 77 21 89 13 45 64 4 10 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [89])
+======================
+[89 89 77 88 65 10 21 30 13 45 64 4 5 ]
+
+Heap Structure:
+==============
+89
+89  77
+88  65  10  21
+30  13  45  64  4  5
+
+
+Enter next Heap Value [-9999 to quit]: 99
+
+
+==> INPUT Values: [88 89 5 30 65 77 21 89 13 45 64 4 10 99 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [99])
+======================
+[99 89 89 88 65 10 77 30 13 45 64 4 5 21 ]
+
+Heap Structure:
+==============
+99
+89  89
+88  65  10  77
+30  13  45  64  4  5  21
+
+
+Enter next Heap Value [-9999 to quit]: 78
+
+
+==> INPUT Values: [88 89 5 30 65 77 21 89 13 45 64 4 10 99 78 ]
+
+Contents of Heap Array: (Value at TOP of Heap = [99])
+======================
+[99 89 89 88 65 10 78 30 13 45 64 4 5 21 77 ]
+
+Heap Structure:
+==============
+99
+89  89
+88  65  10  78
+30  13  45  64  4  5  21  77
+
+
+Enter next Heap Value [-9999 to quit]: -9999
+
+
+::: Program Ended. Till next time.
+
+PS X:\Code\Repos\CP-264\Lab 10\src>

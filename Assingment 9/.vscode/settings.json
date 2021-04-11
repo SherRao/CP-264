@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "random": "c",
+        "expression_symbol.h": "c",
+        "stdio.h": "c",
+        "queue": "c",
+        "stack": "c",
+        "stack.h": "c",
+        "queue.h": "c",
+        "hash.h": "c",
+        "common.h": "c"
+    }
+}

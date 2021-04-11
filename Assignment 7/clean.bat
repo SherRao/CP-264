@@ -1,9 +1,0 @@
-del *.exe
-del *.h
-del tree.*
-del bst.*
-del marks_bst.*
-del readme.txt
-del test_result.txt
-del report.txt
-del *.zip
